@@ -1,0 +1,233 @@
+/* main text color #212121 */
+/* secondary text color #757575 */
+/* logo color #2196F3  #FFFFFF */
+/* bacground color #2F303A */
+/* wite color #F5F5F5 */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-btn-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.body {
+  background-color: #ffffff;
+  color: ;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* верхня лінія */
+
+.header-logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+}
+
+/* navigation */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* .nav-contact{
+    color: var(--secondary-text-color);
+}
+.nav-contact:hover,
+.site-nav:focus{
+    color: var(--accent-color);
+} */
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-description {
+  color: #ffffff;
+  background: #2f303a;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.hero-button {
+  color: var(--white-btn-color);
+  background: var(--accent-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
+  background-color: var(--white-btn-color);
+}
+
+/* section */
+.section,
+.name,
+.spesiality-title {
+  color: var(--primary-text-color);
+}
+
+.name-descript,
+.spesiality-detail {
+  color: var(--secondary-text-color);
+}
+
+/* особливості */
+.spesiality-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.spesiality-detail {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}
+
+
+/* чим ми займаємось */
+.section{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+
+/* наша команда */
+.name{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.name-descript{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+
+
+/* підвал */
+.footer{
+  background-color: #2f303a;
+}
+.map{
+  color: #ffffff;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+  
+    letter-spacing: 0.03em;
+}
+.foot-nav-contact{
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+  
+    letter-spacing: 0.03em;
+  
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+/* portfolio */
+
+.portfolio-button {
+  color: var(--white-btn-color);
+  background: var(--accent-color);
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--accent-color);
+  background-color: var(--white-btn-color);
+}
+
+.job{
+  color: var(--primary-text-color);
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+  
+    letter-spacing: 0.06em;
+  
+}
+
+.type{
+  color: var(--secondary-text-color);
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+  
+    letter-spacing: 0.03em;
+}
