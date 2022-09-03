@@ -18,7 +18,9 @@ ul {
 .body {
   background-color: #ffffff;
   color: ;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  }
 }
 
 /* верхня лінія */
@@ -44,13 +46,13 @@ ul {
   color: var(--accent-color);
 }
 
-/* .nav-contact{
+.nav-contact{
     color: var(--secondary-text-color);
 }
 .nav-contact:hover,
 .site-nav:focus{
     color: var(--accent-color);
-} */
+}
 
 /* hero */
 .hero {
@@ -118,87 +120,80 @@ ul {
   letter-spacing: 0.03em;
 }
 
-
 /* чим ми займаємось */
-.section{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
+.section {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-
 
 /* наша команда */
-.name{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19px;
-        /* identical to box height */
-    
-        text-align: center;
-        letter-spacing: 0.03em;
+.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.name-descript{
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        /* identical to box height */
-    
-        text-align: center;
-        letter-spacing: 0.03em;
+.name-descript {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-
-
 
 /* підвал */
-.footer{
+.footer {
   background-color: #2f303a;
 }
-.map{
+.map {
   color: #ffffff;
   font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-  
-    letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
 }
-.foot-nav-contact{
+.foot-nav-contact {
   font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-  
-    letter-spacing: 0.03em;
-  
-    color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
-
-
-
 
 /* portfolio */
 
 .portfolio-button {
   color: var(--white-btn-color);
   background: var(--accent-color);
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .portfolio-button:hover,
@@ -207,27 +202,26 @@ font-family: 'Roboto';
   background-color: var(--white-btn-color);
 }
 
-.job{
+.job {
   color: var(--primary-text-color);
   font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    /* identical to box height, or 200% */
-  
-    letter-spacing: 0.06em;
-  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
 }
 
-.type{
+.type {
   color: var(--secondary-text-color);
   font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-  
-    letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
 }
