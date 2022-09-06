@@ -57,6 +57,7 @@ body {
 }
 
 /* navigation */
+
 .site-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -107,6 +108,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hero-button:hover,
@@ -158,6 +160,9 @@ body {
 .team-bacg-color{
   color: var(--dark-background-color);
 }
+.bacg-white{
+  background-color: var(--white-btn-color);
+}
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -179,9 +184,17 @@ body {
   background-color: #2f303a;
   font-style: normal;
 }
+.foot-logo {
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .map {
   color: #ffffff;
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71
@@ -201,7 +214,9 @@ body {
 
 
 /* portfolio */
+.bacground-portfolio{
 
+}
 .portfolio-button {
   color: var(--primary-text-color);
   background: var(--dark-background-color);
@@ -209,8 +224,9 @@ body {
   font-size: 16px;
   line-height: 1.62x;
   cursor: pointer;
-  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px; */
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .portfolio-button:hover,
@@ -225,7 +241,6 @@ body {
   font-size: 18px;
   line-height: 2;
   /* identical to box height, or 200% */
-
   letter-spacing: 0.06em;
 }
 
@@ -235,6 +250,9 @@ body {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 188% */
-
   letter-spacing: 0.03em;
+}
+.bacg-job{
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
 }
